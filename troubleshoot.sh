@@ -47,7 +47,7 @@ get_status() {
 # Function to analyze DreamPi logs
 analyze_logs() {
     echo -e "\n=== Recent DreamPi Logs ==="
-    journalctl -u dreampi -n 50 --no-pager
+    journalctl -u dreampi -n 50
 }
 
 # Function to check for common errors
